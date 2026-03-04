@@ -21,9 +21,9 @@ let dogAge;
     } else if (humanAge === 2) {
         dogAge = 15 + 9
     } else if (humanAge > 2) {
+// if humanAge is greater than 2, first humanAge - 2, then * 5, + 24
         dogAge = 24 + 5 * (humanAge - 2)
     }
-
 
 console.log(`Your dog, ${dogName}, is ${dogAge} years old,
 but that's ${humanAge} years old in dog years!`);
